@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-""""
-author: team tvb-sz
-time  : 2022/6/6
-file  : icon.py
-"""
 
 from typing import Any
 

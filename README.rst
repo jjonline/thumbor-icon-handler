@@ -1,7 +1,7 @@
 thumbor-icon-handler
 ====================
 
-A thumbor handler for serve favicon.icon request
+A thumbor handler for serve ``favicon.ico`` request
 
 Installation
 ------------

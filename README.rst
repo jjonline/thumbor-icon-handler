@@ -14,7 +14,7 @@ Contribution
 ============
 
 You can make a pull requests
-`HERE <https://github.com/jjonline/thumbor-gcs/pulls>`__, thank you for
+`HERE <https://github.com/jjonline/thumbor-icon-handler/pulls>`__, thank you for
 your contribution.
 
 # Configuration

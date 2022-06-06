@@ -1,10 +1,10 @@
 thumbor-icon-handler
-===========
+====================
 
-add ``/favicon.ico`` request handler.
+A thumbor handler for serve favicon.icon request
 
 Installation
-============
+------------
 
 ::
 
@@ -14,13 +14,31 @@ Contribution
 ============
 
 You can make a pull requests
-`HERE <https://github.com/jjonline/thumbor-icon-handler/pulls>`__, thank you for
+`HERE <https://github.com/jjonline/thumbor-gcs/pulls>`__, thank you for
 your contribution.
 
-Configuration
-=============
+# Configuration
+===============
 
-you can do not any config just for use loader file ``favicon.ico``
+``HANDLER_LISTS`` settings
+--------------------------
+
+::
+
+   HANDLER_LISTS = [
+     'thumbor.handler_lists.healthcheck',
+     'thumbor.handler_lists.upload',
+     'thumbor.handler_lists.blacklist',
+     # Add this config
+     'thumbor_icon_handler.icon',
+   ]
+
+Optionally specify a local ``favicon.ico`` file
+-----------------------------------------------
+
+You can use the ``favicon.ico`` file in the local file system, or you
+can ignore this configuration item and use the ``favicon.ico`` file in
+the Loader
 
 ::
 

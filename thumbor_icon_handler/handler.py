@@ -45,8 +45,8 @@ class IconHandler(ContextHandler):
         """ get favicon.ico from Loader """
         loader_res = await self.context.modules.loader.load(self.context, path)
         if loader_res is not None:
-            logger.debug("[icon-handler] loader found favicon.ico")
+            logger.debug("[thumbor-icon-handler] loader found favicon.ico")
             return loader_res.buffer
         else:
-            logger.debug("[icon-handler] loader do not found favicon.ico")
+            logger.debug("[thumbor-icon-handler] loader do not found favicon.ico")
             return None
